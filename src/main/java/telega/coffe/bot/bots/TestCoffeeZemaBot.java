@@ -39,7 +39,7 @@ public class TestCoffeeZemaBot extends TelegramLongPollingBot {
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(chatId);
-        sendMessage.setText("Go naxer!");
+        sendMessage.setText(msg);
         try {
             execute(sendMessage);
         } catch (TelegramApiException e) {
