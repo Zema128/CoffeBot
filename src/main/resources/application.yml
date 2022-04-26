@@ -1,0 +1,16 @@
+telegrambot:
+  webHookPath: https://f319-86-57-168-124.eu.ngrok.io
+  userName: '@test_coffe_zema_bot'
+  botToken: 5350608805:AAFRDxUamfPv72NUTHRRNV-iX1hYmZoIHIU
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: zema
+    url: jdbc:postgresql://localhost:5432/coffebotdb
+    password: 123456
+server:
+  port: 5000
+
+#spring.datasource.url=jdbc:postgresql:ec2-54-247-158-179.eu-west-1.compute.amazonaws.com:5432/d2um126le5notq?ssl=true&sslmode=require&sslfactory=org.postgresql.ssl.NonValidatingFactory
+#spring.datasource.username=ulmbeywyhvsxa
+#spring.datasource.password=4c7646c69dbbgeacb98fa96e8daa6d9b1bl4894e67f3f3ddd6a27fe7b0537fd
